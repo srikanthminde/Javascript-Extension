@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+         <style>
+           
+            
+         </style>
+    </head>
+    <body>
+        <div id="d1"></div>
+        <div id="d2"></div>
+    </body>
+    <script type="text/babel">
+        
+        var  x= document.createElement("h2")
+        x.innerHTML="welcome to edupoly"
+        x.style.color="red"
+        x.border="green solid 5px"
+        x.bagroundColor="lightpink"
+        x.padding="10px"
+        document.getElementById("d1").appendChild(x)
+
+        var ar=["srikanth","srinu","ram","sony","venkey"]
+       
+       ar.forEach(function(x){
+        var b=document.createElement("li")
+        b.innerHTML=x
+        document.getElementById("d2").appendChild(b)
+       })
+            
+    // ReactDOM.render(x,document.getElementById("d2"))
+
+    </script>
+</html>

@@ -1,0 +1,29 @@
+<html>
+    <head> <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+           <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+           <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body>
+        <h1> this is javaScript html</h1>
+         <div id="root"></div>
+        <div id ="d1"></div> 
+        <div id="d3"></div> 
+        <div id="root4"></div>
+        
+       <script type="text/babel">
+        var rh1=React.createElement("h1",null,"this is react element")
+        ReactDOM.render(rh1,document.getElementById("root"))
+
+        var bh2=React.createElement("h2",null,"this react2 element")
+        ReactDOM.render(bh2,document.getElementById("d1"))
+
+        var bh1=React.createElement("h1",null,"this is react 12345")
+        ReactDOM.render(bh1,document.getElemenetById("d3"))
+    
+
+        var jsh1 = <h1 style={{color:"red"}}>this ishsss</h1>
+        ReactDOM.render(jsh1.documenet.getElementById("root4"))
+        
+        </script>
+    </body>
+</html>

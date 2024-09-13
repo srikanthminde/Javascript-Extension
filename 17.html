@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <style>
+            img{
+                width: 450px;
+                border: 2px solid;
+            }
+        </style>
+       
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    </head>
+    <body>
+        <div id="d1"></div>
+        <script type="text/babel">
+            var a=+prompt()
+            var jsh1=<div>{a%2===0?(<img src="https://images5.alphacoders.com/325/thumb-1920-325672.jpg"/>):(<img src="http://static.businessinsider.com/image/5484d9d1eab8ea3017b17e29/image.jpg"/>)}</div>
+            ReactDOM.render(jsh1,document.getElementById("d1"))
+        </script>
+    </body>
+</html>
